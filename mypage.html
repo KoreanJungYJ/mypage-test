@@ -124,7 +124,7 @@
                 box-shadow:0 0 5px gray;
                 border-radius: 50px;
                 margin:0 auto;
-                margin-top:2rem;
+                margin-top:3rem;
                 background: linear-gradient(to right, #8b63aa, #595a85);
                 cursor:pointer;
                 
@@ -136,6 +136,67 @@
                 color:white;
                 padding-top:10px;
                 
+            }
+            
+            #ril{
+                margin-top:6.5rem;
+            }
+            
+            /* table */
+            table{
+                border-collapse: collapse;
+                width:95%;
+                margin:0 auto;
+                text-align: center;
+                margin-top:2.5rem;
+                font-family:'nanumsquare';
+                letter-spacing: 1px;
+                color:#505050;
+                font-size:0.9rem;
+            }
+     
+            footer{
+                width:100%;
+                height:170px;
+                background-color:#242729;
+                color:floralwhite;
+                font-size:0.8rem;
+                line-height: 1.8;
+                font-family:'nanumsquare';
+                margin-top:5rem;
+                padding-top:1.6rem;
+                
+            }
+
+            footer #Privacy{
+                width:60%;
+                margin-left:15rem;
+                padding-top:1rem;
+            }
+
+            #Privacy #Privacy_Sub{
+                color:floralwhite;
+                font-size:0.85rem;
+                line-height:1.5;
+                word-spacing: 1.5px;
+                margin-top:2rem;
+            }
+            
+            tr{
+                height:3rem;
+                border:1px solid #e6e6e6;
+            }
+            
+            thead tr th{
+                
+            }
+            thead tr th:nth-child(1){
+                background-color:#38424c;
+                color:white;
+            }
+            tbody tr td:nth-child(1){
+                background-color:#38424c;
+                color:white;
             }
         </style>
     </head>
@@ -211,5 +272,66 @@
         <div id="btn">
             확인하기
         </div>
+        
+        <h1 id="ril">내가 올린 게시글</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>NO.</th>
+                    <th>질문 제목</th>
+                    <th>작성자</th>
+                    <th>작성일자</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>108</td>
+                    <td>QnA를 등록하는 방법</td>
+                    <td>Mr Smith</td>
+                    <td>2017-09-05</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>입학하고 자퇴하는법</td>
+                    <td>Mr Smith</td>
+                    <td>2017-09-05</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>접수현황 확인 방법</td>
+                    <td>Mr Smith</td>
+                    <td>2017-09-05</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>프린트 하는 방법</td>
+                    <td>Mr Smith</td>
+                    <td>2017-09-05</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>자기소개서 잘 쓰는 법</td>
+                    <td>Mr Smith</td>
+                    <td>2017-09-05</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>확인하기 버튼 누르기</td>
+                    <td>Mr Smith</td>
+                    <td>2017-09-05</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                
+            </tfoot>
+        </table>
+        <footer>
+            <div id="Privacy">
+                (34111)대전광역시 유성구 가정북로 76(장동 23-9)<br>
+                교무실 ☎ : 042-866-8822, 교무실 Fax : 042-867-9900, 행정실 ☎ : 042-866-8885, 행정실 Fax : 042-863-4308<br>
+                사업자 등록 번호 314-83-01600 / 기관 메일 dsmhs@korea.kr<br>
+                Copyright&#9400; 대덕소프트웨어마이스터고등학교. All rights reserved.
+            </div>
+        </footer>
     </body>
 </html>
